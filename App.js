@@ -16,10 +16,11 @@ export default function App() {
 
     // View principal/container, onde se agrupa todos os elementos para serem exibidos.
     <View style={estilos.container}>
-      <TouristLoucation imageSource={imagempraia} />
+
       <TouristLoucation name='PRAIA' />
+      <TouristLoucation imageSource={imagempraia} />
       <TouristLoucation address='GUARUJA - PRAIA DAS PITANGUEIRAS' />
-      <TouristLoucation address='Uma praia cheia de maravilhas da natureza, um ambiente agradável, com ondas calmas e uma praia limpa, ótimo para dar um passeio em fámilia ou amigos, uma das melhores praias da região.' />
+      <TouristLoucation description='Uma praia cheia de maravilhas da natureza, um ambiente agradável, com ondas calmas e uma praia limpa, ótimo para dar um passeio em fámilia ou amigos, uma das melhores praias da região.' />
 
 
 

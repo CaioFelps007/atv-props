@@ -8,12 +8,11 @@ export default function TouristLoucation({ name, address, description, imageSour
 
 
     return (
-        <View>
-            <Image source={imageSource} style={{ height: 170, width: 500 }} />
-            <Text>{name}</Text>
-            <Text>{address}</Text>
-            <Text>{description}</Text>
-
+        <View style={{ alignItems: 'center', justifyContent: 'center' }}>
+            <Text style={{ fontSize: 30 }}>{name}</Text>
+            <Image source={imageSource} style={{ height: 180, width: 500 }} />
+            <Text style={{ fontSize: 25 }}>{address}</Text>
+            <Text style={{ fontSize: 25 }}>{description}</Text>
         </View>
 
 
